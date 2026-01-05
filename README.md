@@ -139,7 +139,7 @@ Use Case Diagrams are visual representations that show:
 
 Below is the Use Case Diagram for our booking management system, showing the main actors and their interactions:
 
-![Use Case Diagram for ALX Booking System](./alx-booking-uc.png)
+![Diagram Link](./alx-booking-uc.png)
 
 #### Actors:
 | Actor | Description |
@@ -162,3 +162,46 @@ Below is the Use Case Diagram for our booking management system, showing the mai
 | **Manage Listings** | Hotel managers add, edit, or remove their properties |
 | **Update Availability** | Managers update room availability and pricing |
 | **Receive Notifications** | Users get booking confirmations and reminders |
+
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+
+Imagine you ask your mom to make you a sandwich. But you're picky! So you tell her exactly what you want:
+- "It MUST have peanut butter"
+- "It MUST have jelly"
+- "It MUST be on white bread"
+- "It MUST NOT have the crusts"
+
+If she makes it and it matches ALL those rules, you accept it. If not, you send it back! 
+
+**Acceptance Criteria** are the specific conditions that a software feature must meet to be accepted by the user, customer, or stakeholder. They're like a checklist that says "this feature is DONE and WORKING correctly."
+
+### Why is Acceptance Criteria Important?
+
+| Benefit | Description |
+|---------|-------------|
+| **Clear Expectations** | Everyone knows exactly what "done" looks like — no confusion! |
+| **Testable** | QA teams can create tests based on these criteria to verify the feature works |
+| **Prevents Scope Creep** | Keeps the team focused on what was agreed upon, not endless additions |
+| **Shared Understanding** | Developers, testers, and clients all agree on what the feature should do |
+| **Basis for Acceptance** | Provides clear grounds for accepting or rejecting a delivered feature |
+
+### Example: Acceptance Criteria for Checkout Feature
+
+For the **Checkout Feature** in the booking management system, here's an example of well-written Acceptance Criteria:
+
+**Feature:** Checkout Process for Hotel Booking
+
+| # | Acceptance Criteria |
+|---|---------------------|
+| 1 | The system shall display a booking summary showing property name, dates, number of guests, and total price before payment |
+| 2 | The user shall be able to select from at least two payment methods (credit card, PayPal, etc.) |
+| 3 | The system shall validate the payment card details (card number, expiry date, CVV) before processing |
+| 4 | The system shall process the payment within 30 seconds and display a confirmation or error message |
+| 5 | Upon successful payment, the system shall send a booking confirmation email to the user within 2 minutes |
+| 6 | The system shall display a booking confirmation page with a unique booking reference number |
+| 7 | If payment fails, the system shall display an error message and allow the user to retry or choose a different payment method |
+| 8 | The system shall not charge the user if the booking is not confirmed |
+| 9 | The checkout process shall be completable within 3 steps (Review → Payment → Confirmation) |
+| 10 | All payment data shall be transmitted securely using encryption (HTTPS/SSL) |
