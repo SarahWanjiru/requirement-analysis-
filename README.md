@@ -44,3 +44,36 @@ Sometimes people have different ideas about what they want. One person might ima
 ### 3. Provides a Clear Roadmap for Development 
 Once we know what we're building, we can figure out how long it will take, how many people we need, and what tools to use. Without clear requirements, planning is just guessing! It's like trying to pack for a trip without knowing where you're going — you might bring snow boots to the beach!
 
+## Key Activities in Requirement Analysis
+
+Think of Requirement Analysis like planning the perfect birthday party. There are several steps you need to follow to make sure everything goes smoothly:
+
+### 1. Requirement Gathering
+This is like going around and asking everyone what they want at the party.
+- **What it is:** Collecting information from all the people who will use or be affected by the software (stakeholders)
+- **How it's done:** Through interviews, surveys, questionnaires, and studying existing systems
+- **Example:** Asking the birthday kid, parents, and friends what food, games, and decorations they want
+
+### 2. Requirement Elicitation
+This is digging deeper to find out what people *really* need, even if they didn't say it directly.
+- **What it is:** Drawing out hidden or unclear requirements through deeper conversations and techniques
+- **How it's done:** Brainstorming sessions, workshops, prototyping, and observation
+- **Example:** The birthday kid says "I want a fun party" — you ask more questions to find out *what* makes it fun for them (games? music? a bounce house?)
+
+### 3. Requirement Documentation
+This is writing everything down so nobody forgets!
+- **What it is:** Recording all the gathered requirements in a clear, organized format
+- **How it's done:** Creating requirement specification documents, user stories, and use cases
+- **Example:** Making a party checklist:  chocolate cake,  blue balloons,  video games,  10 guests
+
+### 4. Requirement Analysis and Modeling
+This is looking at your list and making sure everything makes sense and fits together.
+- **What it is:** Examining requirements for conflicts, overlaps, and feasibility; creating visual models
+- **How it's done:** Creating diagrams (flowcharts, data models), prioritizing requirements, checking for conflicts
+- **Example:** Realizing you can't have a pool party AND a movie party at the same time — you need to pick one or find a compromise
+
+### 5. Requirement Validation
+This is double-checking with everyone that you got it right before the party planning begins!
+- **What it is:** Confirming that documented requirements accurately reflect what stakeholders actually need
+- **How it's done:** Reviews, walkthroughs, prototyping, and getting sign-off from stakeholders
+- **Example:** Reading your party checklist back to the birthday kid: "So you want chocolate cake, blue balloons, and video games — is that right?" 
