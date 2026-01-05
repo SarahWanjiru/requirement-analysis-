@@ -146,7 +146,6 @@ Below is the Use Case Diagram for our booking management system, showing the mai
 |-------|-------------|
 | **Guest/Customer** | A user who searches for properties, makes bookings, and manages their reservations |
 | **Hotel Manager** | A user who manages property listings, updates availability, and views bookings |
-| **System Administrator** | Manages user accounts, system settings, and oversees platform operations |
 | **Payment System** | External service that processes payments (e.g., Stripe, PayPal) |
 
 #### Use Cases:
