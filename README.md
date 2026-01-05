@@ -115,3 +115,50 @@ For the **Hotel Booking System** (like Airbnb/OYO), here are examples:
 | **Usability** | The booking process shall be completable in no more than 3 steps/clicks |
 | **Response Time** | API responses shall be optimized using Redis caching to reduce database load |
 | **Data Storage** | The system shall archive old booking data to Cassandra to maintain fast query times |
+
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+
+Imagine you're explaining to a friend how a video game works. You'd say things like: "The player can jump, run, collect coins, and fight enemies." A **Use Case Diagram** is like drawing a picture that shows all the things different people can do with a system!
+
+Use Case Diagrams are visual representations that show:
+- **Actors** — The people or systems that interact with your software (like players in a game)
+- **Use Cases** — The actions or tasks they can perform (like "jump" or "collect coins")
+- **Relationships** — How actors and actions are connected
+
+### Benefits of Use Case Diagrams
+
+- **Easy to understand** — Even people who aren't tech experts can look at the picture and understand what the system does
+- **Shows the big picture** — You can see all the features and who uses them at a glance
+- **Helps find missing requirements** — When you draw it out, you might notice "Oh wait, we forgot about this!"
+- **Great for communication** — Developers, designers, and clients can all look at the same picture and agree on what's being built
+- **Identifies actors clearly** — You know exactly who will use the system and what they need
+
+### Use Case Diagram for Hotel Booking System
+
+Below is the Use Case Diagram for our booking management system, showing the main actors and their interactions:
+
+![Use Case Diagram for ALX Booking System](./alx-booking-uc.png)
+
+#### Actors:
+| Actor | Description |
+|-------|-------------|
+| **Guest/Customer** | A user who searches for properties, makes bookings, and manages their reservations |
+| **Hotel Manager** | A user who manages property listings, updates availability, and views bookings |
+| **System Administrator** | Manages user accounts, system settings, and oversees platform operations |
+| **Payment System** | External service that processes payments (e.g., Stripe, PayPal) |
+
+#### Use Cases:
+| Use Case | Description |
+|----------|-------------|
+| **Register/Login** | Users create an account or sign in to access the system |
+| **Search Properties** | Guests search for hotels by location, dates, and filters |
+| **View Property Details** | Users view photos, amenities, reviews, and pricing |
+| **Make Booking** | Guests select dates and reserve a property |
+| **Process Payment** | System handles payment through external payment gateway |
+| **Cancel Booking** | Users cancel their reservations |
+| **View Booking History** | Users view their past and current bookings |
+| **Manage Listings** | Hotel managers add, edit, or remove their properties |
+| **Update Availability** | Managers update room availability and pricing |
+| **Receive Notifications** | Users get booking confirmations and reminders |
