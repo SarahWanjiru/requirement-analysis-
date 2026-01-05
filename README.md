@@ -77,3 +77,41 @@ This is double-checking with everyone that you got it right before the party pla
 - **What it is:** Confirming that documented requirements accurately reflect what stakeholders actually need
 - **How it's done:** Reviews, walkthroughs, prototyping, and getting sign-off from stakeholders
 - **Example:** Reading your party checklist back to the birthday kid: "So you want chocolate cake, blue balloons, and video games — is that right?" 
+
+## Types of Requirements
+
+When building software, there are two main types of requirements — like two different kinds of rules for your treehouse. Some rules are about **what the treehouse does** (it has a ladder, a window, a slide), and other rules are about **how well it does it** (it should be strong, safe, and not fall down in the wind).
+
+### Functional Requirements 
+
+**Functional Requirements** describe *what the system should do* — the specific features and functions. Think of these as the "action items" on your checklist.
+
+For the **Hotel Booking System** (like Airbnb/OYO), here are examples:
+
+| Requirement | Description |
+|-------------|-------------|
+| **User Registration** | The system shall allow users to create an account using email, phone number, or social media login |
+| **Search Properties** | Users shall be able to search for hotels by location, date, price range, and amenities |
+| **View Listings** | The system shall display property details including photos, descriptions, reviews, and availability |
+| **Booking** | Users shall be able to select a property, choose dates, and complete a reservation |
+| **Payment Processing** | The system shall integrate with payment services to process credit cards, debit cards, and digital wallets |
+| **Booking Management** | Hotel managers shall be able to add, update, and remove property listings |
+| **View Booking History** | Users and managers shall be able to view current and past bookings |
+| **Notifications** | The system shall send booking confirmations and reminders via email or SMS |
+
+### Non-functional Requirements 
+
+**Non-functional Requirements** describe *how well the system performs* — the quality attributes. Think of these as the "it should be..." requirements.
+
+For the **Hotel Booking System** (like Airbnb/OYO), here are examples:
+
+| Requirement | Description |
+|-------------|-------------|
+| **Performance** | The system shall load search results within 2 seconds, even with 10,000+ concurrent users |
+| **Scalability** | The system shall handle increased traffic during peak seasons using microservice architecture and load balancers |
+| **Availability** | The system shall maintain 99.9% uptime (available almost all the time, like a store that never closes) |
+| **Security** | User data and payment information shall be encrypted; the system shall comply with data protection standards |
+| **Reliability** | The system shall use master-slave database architecture to prevent data loss |
+| **Usability** | The booking process shall be completable in no more than 3 steps/clicks |
+| **Response Time** | API responses shall be optimized using Redis caching to reduce database load |
+| **Data Storage** | The system shall archive old booking data to Cassandra to maintain fast query times |
